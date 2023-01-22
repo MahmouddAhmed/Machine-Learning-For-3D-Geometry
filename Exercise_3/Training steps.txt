@@ -1,0 +1,5 @@
+DeepSDF Training:
+  1- 144 epochs on GPU   loss => 0.0148
+  2- 35  epochs on GPU   loss => 0.013
+  3- 142 epochs on GPU   loss => 0.012
+  4- 81  epochs on GPU    loss => 0.011
