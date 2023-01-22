@@ -1,25 +1,25 @@
 # Machine-Learning-For-3D-Geometry
 This repository contains the my work on the assignments for the Machine Learning for 3D Geometry (ML43D) course at Technical University of Munich (TUM). 
-The lecture aims to explore state-of-the-art algorithms for both supervised and unsupervised machine learning on 3D data, 
-for both analysis and synthesis of 3D shapes and scenes.
+The goal of this course is to explore state-of-the-art algorithms for both supervised and unsupervised machine learning on 3D data, for both analysis and synthesis of 3D shapes and scenes.
 
+## Overview
 
-## Datasets
-<b>ShapeNet (2015)</b> [[Link]](https://www.shapenet.org/)
+- Datasets
+    - <b>ShapeNet (2015)</b> [[Link]](https://www.shapenet.org/)
 <br>3Million+ models and 4K+ categories. A dataset that is large in scale, well organized and richly annotated.<br>
 
-<b>ShapeNetCore</b> [[Link]](http://shapenet.cs.stanford.edu/shrec16/):<br> 51300 models for 55 categories.
+    - <b>ShapeNetCore</b> [[Link]](http://shapenet.cs.stanford.edu/shrec16/):<br> 51300 models for 55 categories.
 
-## Networks
-<b>Volumetric and Multi-View CNNs for Object Classification on 3D Data (2016)</b> [[Paper]](https://arxiv.org/pdf/1604.03265.pdf) [[Code]](https://github.com/charlesq34/3dcnn.torch)
+- Networks
+    - <b>Volumetric and Multi-View CNNs for Object Classification on 3D Data (2016)</b> [[Paper]](https://arxiv.org/pdf/1604.03265.pdf) [[Code]](https://github.com/charlesq34/3dcnn.torch)
 
-<b>PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation (2017)</b> [[Paper]](http://stanford.edu/~rqi/pointnet/) [[Code]](https://github.com/charlesq34/pointnet)
+    - <b>PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation (2017)</b> [[Paper]](http://stanford.edu/~rqi/pointnet/) [[Code]](https://github.com/charlesq34/pointnet)
 
-<b>PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space (2017)</b> [[Paper]](https://arxiv.org/pdf/1706.02413.pdf) [[Code]](https://github.com/charlesq34/pointnet2)
+    - <b>PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space (2017)</b> [[Paper]](https://arxiv.org/pdf/1706.02413.pdf) [[Code]](https://github.com/charlesq34/pointnet2)
 
-<b>3D-EPN: Shape Completion using 3D-Encoder-Predictor CNNs and Shape Synthesis</b> [[Paper]](https://arxiv.org/abs/1612.00101.pdf) [[Code]](https://github.com/angeladai/cnncomplete)
+    - <b>3D-EPN: Shape Completion using 3D-Encoder-Predictor CNNs and Shape Synthesis</b> [[Paper]](https://arxiv.org/abs/1612.00101.pdf) [[Code]](https://github.com/angeladai/cnncomplete)
 
-<b>DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation</b> [[Paper]](https://arxiv.org/abs/1901.05103.pdf) [[Code]](https://github.com/facebookresearch/DeepSDF)
+    - <b>DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation</b> [[Paper]](https://arxiv.org/abs/1901.05103.pdf) [[Code]](https://github.com/facebookresearch/DeepSDF)
 
 
 ## Prerequisites
@@ -36,6 +36,14 @@ These instructions will get you a copy of the project up and running on your loc
 4. Activate the virtual environment by running `pipenv shell`or run the notebooks using `poetry run jupyter notebook`
 
 ## Exercises
+The exercises cover the following topics:
+1. Basic geometric tasks including hand-crafted shape generation, conversion between representations and simple shape alignment.
+2. Machine Learning on 3D shapes with a focus on shape classification and segmentation using simple 3D-CNNs, PointNet and PointNet Segmentation.
+3. 3D shape reconstruction using 3D-EPN and DeepSDF.
+
+Each exercise includes a detailed description of the task, the implemented code and the results.
+
+<!-- ## Exercises
 
 ### Exercise 1 
 
@@ -81,13 +89,15 @@ We will take a look at two major approaches for 3D shape reconstruction in this 
 #### Exercise 3.2 : Shape Reconstruction from 3D SDF grids with 3D-EPN
 - Implementing of the DeepSDF Auto-encoder architecture using pytorch
 - Training the 3D-EPN for 3d-reconstruction
-- Visualize the interpolation between latent codes of two objects
+- Visualize the interpolation between latent codes of two objects -->
 
 
 
 ## Acknowledgments
 
-* Machine Learning for 3D-Geometry course at the Technical University of Munich for providing the opportunity to work on these assignments.
+I would like to thank the Machine Learning for 3D-Geometry course at the Technical University of Munich and my supervisors for providing the opportunity to work on these assignments.
+<br><br>
+
 
 ## References
 [1] Park, Jeong Joon, et al. "Deepsdf: Learning continuous signed distance functions for shape representation." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019
