@@ -98,6 +98,11 @@ We will take a look at two major approaches for 3D shape reconstruction in this 
 I would like to thank the Machine Learning for 3D-Geometry course at the Technical University of Munich and my supervisors for providing the opportunity to work on these assignments.
 <br><br>
 
+## Disclaimer
+The guidelines, tips and markdown cells for this repository were provided by the Machine Learning for 3D Geometry course department at Technical University of Munich. The implementation, results and analysis presented in this repository are my own. Any errors or inaccuracies are my own and do not reflect the views or opinions of the course department or the Technical University of Munich.
+
+It is important to note that the exercises in this repository are intended for educational purposes only and should not be submitted as your own work. Plagiarism is a serious academic offense and will not be tolerated. It is the responsibility of the user to understand and adhere to their institution's academic integrity policies.
+
 
 ## References
 [1] Park, Jeong Joon, et al. "Deepsdf: Learning continuous signed distance functions for shape representation." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019
